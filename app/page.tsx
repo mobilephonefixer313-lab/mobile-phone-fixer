@@ -16,6 +16,11 @@ export default function MobilePhoneFixer313Website() {
       price: 'Starting at $69',
     },
     {
+      title: 'Camera & Speaker Repair',
+      desc: 'Help with camera issues, speaker problems, microphones, and common device faults.',
+      price: 'Starting at $69',
+    },
+    {
       title: 'PS5 / Console Repair',
       desc: 'Help with HDMI issues, no display, overheating, and diagnostic repair.',
       price: 'Quote required',
@@ -24,11 +29,6 @@ export default function MobilePhoneFixer313Website() {
       title: 'Board-Level Diagnostics',
       desc: 'Advanced troubleshooting and component-level repair backed by engineering experience.',
       price: 'Diagnostic fee applies',
-    },
-    {
-      title: 'Device Buy / Sell',
-      desc: 'Broken phone evaluation, resale opportunities, and repairable device purchases.',
-      price: 'Custom quote',
     },
   ];
 
@@ -60,15 +60,21 @@ export default function MobilePhoneFixer313Website() {
                 Fast, reliable phone and electronics repair.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                Screen repairs, batteries, charging issues, console troubleshooting, and advanced
-                diagnostics with an engineering-driven approach.
+                Phone repair built for speed, trust, and real diagnostics. We help with cracked screens,
+                weak batteries, charging problems, common device issues, and deeper diagnostic work.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="#contact"
+                  href="tel:+13135550133"
                   className="rounded-2xl bg-blue-600 px-6 py-3 text-sm font-semibold shadow-lg shadow-blue-900/40 transition hover:bg-blue-500"
                 >
-                  Get a Quote
+                  Call Now
+                </a>
+                <a
+                  href="sms:+13135550133"
+                  className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+                >
+                  Text for Quote
                 </a>
                 <a
                   href="#services"
@@ -76,6 +82,9 @@ export default function MobilePhoneFixer313Website() {
                 >
                   View Services
                 </a>
+              </div>
+              <div className="mt-6 max-w-xl rounded-[1.5rem] border border-blue-400/20 bg-blue-500/10 p-5 text-sm text-blue-100">
+                Same-day repair available on many common issues. Diagnostics available for phones, consoles, and advanced board-level problems.
               </div>
               <div className="mt-8 grid max-w-xl grid-cols-2 gap-4 text-sm text-slate-300 sm:grid-cols-4">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -189,6 +198,20 @@ export default function MobilePhoneFixer313Website() {
                 <div className="text-sm text-slate-400">Phone</div>
                 <div className="mt-2 text-lg font-semibold">(313) 555-0133</div>
               </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <div className="text-sm text-slate-400">Text for Quote</div>
+                <div className="mt-2 text-lg font-semibold">Fast response for common repairs</div>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <div className="text-sm text-slate-400">Hours</div>
+                <div className="mt-2 text-lg font-semibold">Mon–Sat, 9 AM–7 PM</div>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <div className="text-sm text-slate-400">Service Area</div>
+                <div className="mt-2 text-lg font-semibold">Metro Detroit</div>
+              </div>
+            </div>
+          </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
                 <div className="text-sm text-slate-400">Email</div>
                 <div className="mt-2 text-lg font-semibold">service@mobilephonefixer313.com</div>
