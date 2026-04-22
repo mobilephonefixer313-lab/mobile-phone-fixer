@@ -69,14 +69,14 @@ export default function Home() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="tel:+13135550133"
+                  href="tel:+13132051875"
                   className="rounded-2xl bg-blue-600 px-6 py-3 text-sm font-semibold shadow-lg shadow-blue-900/40 transition hover:bg-blue-500"
                 >
                   Call Now
                 </a>
 
                 <a
-                  href="sms:+13135550133"
+                  href="sms:+13132051875"
                   className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
                 >
                   Text for Quote
@@ -269,7 +269,7 @@ export default function Home() {
             </ul>
 
             <a
-              href="sms:+13135550133"
+              href="sms:+13132051875"
               className="mt-8 inline-flex rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
             >
               Text for Quote
