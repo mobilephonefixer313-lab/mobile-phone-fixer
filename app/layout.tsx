@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phone & Electronics Repair in Metro Detroit | Mobile Phone Fixer 313",
-  description: "Metro Detroit iPhone and Android screen repair, battery replacement, charging repairs, PS5 diagnostics, and board-level troubleshooting. Call or text (313) 427-9331 for a quote.",
+  title: "Phone Repair & Root Cause Consulting | Mobile Phone Fixer 313",
+  description: "Metro Detroit iPhone and Android screen repair, battery replacement, charging repairs, PS5 diagnostics, board-level troubleshooting, and electrical root cause consulting. Call or text (313) 427-9331 for a quote.",
   metadataBase: new URL("https://mobile-phone-fixer.vercel.app"),
   alternates: { canonical: "/" },
   openGraph: {
