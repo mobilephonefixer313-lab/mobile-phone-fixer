@@ -53,8 +53,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      <section className="relative overflow-hidden border-b border-white/10 bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.18),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(14,165,233,0.12),transparent_25%)]" />
+      <nav className="sticky top-0 z-30 border-b border-white/10 bg-slate-950/95 backdrop-blur"><div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-6 py-4 lg:px-8"><a href="#" className="font-bold tracking-tight text-white">MPF <span className="text-cyan-400">313</span></a><div className="flex flex-wrap items-center gap-4 text-sm font-medium text-slate-200"><a href="#services" className="hover:text-cyan-300">Repairs</a><a href="#consulting" className="hover:text-cyan-300">Consulting</a><a href="#faq" className="hover:text-cyan-300">FAQ</a><a href="tel:+13134279331" className="rounded-xl bg-cyan-400 px-4 py-2 font-bold text-slate-950 hover:bg-cyan-300">Call Now</a></div></div></nav>
+      <section className="relative overflow-hidden border-b border-white/10 bg-gradient-to-br from-[#020617] via-[#0a2450] to-[#020617]">
+        <div aria-hidden="true" className="absolute inset-0 opacity-70" style={{ backgroundImage: "radial-gradient(circle at 80% 20%, rgba(34,211,238,.22), transparent 32%), radial-gradient(circle at 12% 85%, rgba(37,99,235,.22), transparent 30%), linear-gradient(rgba(56,189,248,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(56,189,248,.055) 1px, transparent 1px)", backgroundSize: "auto, auto, 44px 44px, 44px 44px" }} />
         <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
@@ -249,6 +250,19 @@ export default function Home() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="faq" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Common Questions</p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Know what to expect before you book.</h2>
+        <div className="mt-8 grid gap-4 md:grid-cols-2">
+          {[
+            {q: "What devices do you work on?", a: "We offer services for iPhones, Android phones, tablets, computers, and game consoles. Contact us with the exact model and problem to confirm availability."},
+            {q: "Can you repair my device the same day?", a: "Some common repairs may be completed the same day. Timing depends on the issue, parts availability, and the repair schedule."},
+            {q: "How much will my repair cost?", a: "Pricing depends on the device and issue. Call or text the model and symptoms to discuss a quote before proceeding."},
+            {q: "What is Root Cause Consulting?", a: "Engineering-led investigation of electrical and electronic failures, including measurement review, fault isolation, and corrective-action recommendations. Consulting is quoted by scope."}
+          ].map(item => <div key={item.q} className="rounded-2xl border border-white/10 bg-white/5 p-6"><h3 className="text-lg font-semibold text-white">{item.q}</h3><p className="mt-3 text-sm leading-7 text-slate-300">{item.a}</p></div>)}
         </div>
       </section>
 
