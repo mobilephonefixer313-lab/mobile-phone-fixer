@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function sitemap(): MetadataRoute.Sitemap { const base = "https://mobile-phone-fixer.vercel.app"; return ["/","/iphone-repair","/android-repair","/ps5-repair","/computer-repair","/tablet-repair","/root-cause-consulting"].map(path=>({url:base+path,changeFrequency:"monthly" as const,priority:path==="/" ? 1 : 0.8})); }
