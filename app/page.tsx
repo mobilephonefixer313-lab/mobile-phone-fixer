@@ -86,6 +86,13 @@ export default function Home() {
                 </a>
 
                 <a
+                  href="#consulting"
+                  className="rounded-2xl border border-cyan-400/40 bg-cyan-500/10 px-6 py-3 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-500/20"
+                >
+                  Root Cause Consulting
+                </a>
+
+                <a
                   href="#services"
                   className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
                 >
@@ -174,6 +181,27 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section id="consulting" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        <div className="rounded-[2rem] border border-cyan-400/30 bg-gradient-to-br from-cyan-950/70 via-slate-900 to-blue-950/60 p-8 sm:p-12">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Engineering Consulting</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">Root Cause Consulting</h2>
+          <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-200">
+            Go beyond replacing parts. Get engineering-led help investigating electrical and electronic failures, isolating fault mechanisms, reviewing test measurements, and identifying practical corrective actions.
+          </p>
+          <div className="mt-7 grid gap-3 text-sm text-slate-200 sm:grid-cols-2">
+            <div className="rounded-xl border border-white/10 bg-white/5 p-4">Electrical &amp; electronic failure analysis</div>
+            <div className="rounded-xl border border-white/10 bg-white/5 p-4">Measurement review &amp; fault isolation</div>
+            <div className="rounded-xl border border-white/10 bg-white/5 p-4">Troubleshooting process development</div>
+            <div className="rounded-xl border border-white/10 bg-white/5 p-4">Corrective-action recommendations</div>
+          </div>
+          <div className="mt-8 flex flex-wrap items-center gap-4">
+            <a href="sms:+13134279331" className="rounded-2xl bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300">Text About Consulting</a>
+            <a href="tel:+13134279331" className="rounded-2xl border border-white/20 px-6 py-3 text-sm font-semibold transition hover:bg-white/10">Call (313) 427-9331</a>
+            <span className="text-sm text-slate-300">Consultations quoted by scope</span>
+          </div>
         </div>
       </section>
 
