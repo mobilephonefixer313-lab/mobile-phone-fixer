@@ -26,6 +26,11 @@ export default function Home() {
       price: "Quote required",
     },
     {
+      title: "Root Cause Consulting",
+      desc: "Engineering-led failure analysis for electrical and electronic systems. Get help isolating failure mechanisms, reviewing measurements, and developing corrective-action recommendations.",
+      price: "Consultation by quote",
+    },
+    {
       title: "Board-Level Diagnostics",
       desc: "Advanced troubleshooting and component-level repair backed by engineering experience.",
       price: "Diagnostic fee applies",
@@ -58,11 +63,11 @@ export default function Home() {
               </div>
 
               <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                iPhone, Android & electronics repair in Metro Detroit.
+                Phone, electronics repair & root cause consulting in Metro Detroit.
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                Cracked screen, weak battery, charging issue, or PS5 with no display? Get straightforward repair guidance from a local, engineering-led business serving Metro Detroit.
+                Cracked screen, weak battery, charging issue, or PS5 with no display? Get straightforward repair guidance and engineering-led root cause consulting in Metro Detroit.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
@@ -89,7 +94,7 @@ export default function Home() {
               </div>
 
               <div className="mt-6 max-w-xl rounded-[1.5rem] border border-blue-400/20 bg-blue-500/10 p-5 text-sm text-blue-100">
-                Need help with a device? Call or text for availability, repair options, and a quote. Diagnostics are available for phones, consoles, and board-level problems.
+                Need help with a device? Call or text for availability, repair options, and a quote. Diagnostics and root cause consulting are available for complex electrical and electronic problems.
               </div>
 
               <div className="mt-8 grid max-w-xl grid-cols-2 gap-4 text-sm text-slate-300 sm:grid-cols-4">
@@ -152,7 +157,7 @@ export default function Home() {
             Repair services built for real device problems.
           </h2>
           <p className="mt-4 text-slate-400">
-            From everyday screen and battery repairs to advanced diagnostics, tell us what is wrong and request a quote.
+            From everyday screen and battery repairs to advanced failure analysis and root cause consulting, tell us what is wrong and request a quote.
           </p>
         </div>
 
