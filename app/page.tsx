@@ -34,15 +34,15 @@ export default function Home() {
 
   const steps = [
     "Call or text with your device model and issue.",
-    "Get a quick quote and repair recommendation.",
-    "Drop off your device or schedule repair service.",
-    "Pick up your repaired device with confidence.",
+    "Ask for a quote and repair recommendation.",
+    "Confirm repair arrangements and parts availability.",
+    "Review the repair outcome and next steps.",
   ];
 
   const reasons = [
     "Electrical engineer approach to diagnostics",
-    "Same-day service on many common repairs",
-    "Straightforward pricing and honest assessments",
+    "Common repairs may be available the same day; ask first",
+    "Clear estimates before repair work begins",
     "Local small business focus with personal service",
   ];
 
@@ -58,13 +58,11 @@ export default function Home() {
               </div>
 
               <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Fast, reliable phone and electronics repair.
+                iPhone, Android & electronics repair in Metro Detroit.
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                Phone repair built for speed, trust, and real diagnostics. We help with cracked
-                screens, weak batteries, charging problems, common device issues, and deeper
-                diagnostic work.
+                Cracked screen, weak battery, charging issue, or PS5 with no display? Get straightforward repair guidance from a local, engineering-led business serving Metro Detroit.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
@@ -72,7 +70,7 @@ export default function Home() {
                   href="tel:+13134279331"
                   className="rounded-2xl bg-blue-600 px-6 py-3 text-sm font-semibold shadow-lg shadow-blue-900/40 transition hover:bg-blue-500"
                 >
-                  Call Now
+                  Call (313) 427-9331
                 </a>
 
                 <a
@@ -86,13 +84,12 @@ export default function Home() {
                   href="#services"
                   className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
                 >
-                  View Services
+                  Explore Repair Services
                 </a>
               </div>
 
               <div className="mt-6 max-w-xl rounded-[1.5rem] border border-blue-400/20 bg-blue-500/10 p-5 text-sm text-blue-100">
-                Same-day repair available on many common issues. Diagnostics available for phones,
-                consoles, and advanced board-level problems.
+                Need help with a device? Call or text for availability, repair options, and a quote. Diagnostics are available for phones, consoles, and board-level problems.
               </div>
 
               <div className="mt-8 grid max-w-xl grid-cols-2 gap-4 text-sm text-slate-300 sm:grid-cols-4">
@@ -136,8 +133,7 @@ export default function Home() {
                       Get a clear recommendation before spending money on unnecessary repairs.
                     </div>
                     <div className="rounded-2xl border border-white/10 bg-slate-800/70 p-4">
-                      Built for a local repair business that wants trust, speed, and clean
-                      branding.
+                      Serving Metro Detroit with practical repair advice and clear next steps.
                     </div>
                   </div>
                 </div>
@@ -156,8 +152,7 @@ export default function Home() {
             Repair services built for real device problems.
           </h2>
           <p className="mt-4 text-slate-400">
-            Start lean and clear. These sections are ready to use now and can be expanded as your
-            business grows.
+            From everyday screen and battery repairs to advanced diagnostics, tell us what is wrong and request a quote.
           </p>
         </div>
 
@@ -234,8 +229,7 @@ export default function Home() {
               Ready to get your device repaired?
             </h2>
             <p className="mt-4 max-w-2xl text-slate-300">
-              Contact Mobile Phone Fixer 313 LLC for quick quotes, common same-day repairs, and
-              advanced diagnostics when the problem is more than a basic part swap.
+              Tell us your device model and what is happening. We can discuss repair options, parts availability, and advanced diagnostics.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -245,7 +239,7 @@ export default function Home() {
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
                 <div className="text-sm text-slate-400">Text for Quote</div>
-                <div className="mt-2 text-lg font-semibold">Fast response for common repairs</div>
+                <div className="mt-2 text-lg font-semibold">Message us with your device model and issue</div>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
                 <div className="text-sm text-slate-400">Hours</div>
@@ -264,7 +258,7 @@ export default function Home() {
               <li>• Screen replacement</li>
               <li>• Battery replacement</li>
               <li>• Charging port repair</li>
-              <li>• Same-day repair on many common issues</li>
+              <li>• Ask about same-day repair availability</li>
               <li>• Diagnostics available for advanced problems</li>
             </ul>
 
